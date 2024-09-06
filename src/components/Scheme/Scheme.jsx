@@ -39,15 +39,13 @@ const Scheme = () => {
                         <h3>News</h3>
                         <div className="news">
                         <ul id="news-alerts" class="news-alert-list">
-                            <li><a href="#">The first thing that most Javascript programmers</a></li>
-                            <li><a href="#">End up doing is adding some code</a></li>
-                            <li><a href="#">The code that you want to run</a></li>
-                            <li><a href="#">Inside of which is the code that you want to run</a></li>
-                            <li><a href="#">Right when the page is loaded</a></li>
-                            <li><a href="#">Problematically, however, the Javascript code</a></li>
-                            <li><a href="#">Just Another</a></li>
-                            <li><a href="#">Line of Code</a></li>
-                            <li><a href="#">To check</a></li>
+                            <li><a href="#">Revival of fasal bima Yojana</a></li>
+                            <li><a href="#">Cabinet approves the clean plant programme under mission of integrated development for horticulture</a></li>
+                            <li><a href="#">Union Minister Shri Shivraj Singh Chouhan launches Krishi Nivesh Portal & AgriSure Fund and distributes AIF Excellence Awards</a></li>
+                            <li><a href="#">Cabinet approves the Digital Agriculture Mission today with an outlay of Rs. 2817 Crore, including the central share of Rs. 1940 Crore</a></li>
+                            <li><a href="#">Cabinet accords approval for progressive expansion of Central Sector Scheme of Agriculture Infrastructure Fund</a></li>
+                            <li><a href="#">
+                            MoS Shri Bhagirath Choudhary launches the digital geo-spatial platform, Krishi-Decision Support System</a></li>
                         </ul>
                         </div>
                     </div>
