@@ -17,7 +17,7 @@ const Header = (props) => {
           <p>Your digital companion for smarter farming -</p>
           <p>We help maintain a balanced supply and ensure fair prices, so you can farm smarter and earn better.</p>
         </div>
-        <button onClick={props.value === "Generate Report" ? () => navigate("/report") : () => { }} className='header-btn'>{props.value}</button>
+        <button onClick={props.value === "Generate Report" ? () => navigate("/report") : () => navigate("signin")} className='header-btn'>{props.value}</button>
       </div>
     </div>
       <hr />
