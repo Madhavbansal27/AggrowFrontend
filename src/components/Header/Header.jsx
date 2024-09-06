@@ -14,13 +14,13 @@ const Header = (props) => {
           <h1><span className='tagline-hl'>टेक्नोलॉजी</span> के साथ "</h1>
         </div>
         <div className="tagline-description">
-        <p>Your digital companion for smarter farming -</p>
-        <p>We help maintain a balanced supply and ensure fair prices, so you can farm smarter and earn better.</p>
+          <p>Your digital companion for smarter farming -</p>
+          <p>We help maintain a balanced supply and ensure fair prices, so you can farm smarter and earn better.</p>
         </div>
-        <button onClick={props.value ==="Generate Report"?()=>navigate("/report"):()=>{}} className='header-btn'>{props.value}</button>
+        <button onClick={props.value === "Generate Report" ? () => navigate("/report") : () => { }} className='header-btn'>{props.value}</button>
       </div>
     </div>
-    <hr />
+      <hr />
     </>
   )
 }
