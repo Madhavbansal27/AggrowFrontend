@@ -51,3 +51,31 @@
     font-size: 1.6rem;
     margin-bottom: 1rem;
   }
+  @media (max-width : 700px){
+    .container-boxes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      width: 80%;
+      margin: auto;
+    }
+    .service-box{
+      height: 28vh;
+      padding: 4px;
+    }
+    .service-box1{
+      height: 28vh;
+      padding: 4px;
+    }
+    .container-boxes h3{
+      font-size: 0.8rem;
+      margin-bottom: 5px;
+    }
+    .container-boxes p{
+      font-size: 10px;
+    }
+    .icon{
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+  }

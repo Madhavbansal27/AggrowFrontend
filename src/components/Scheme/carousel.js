@@ -13,7 +13,7 @@ function showSlide(index) {
     } else {
         currentIndex = index;
     }
-    slides[currentIndex].scrollIntoView({ behavior: 'smooth' });
+    // slides[currentIndex].scrollIntoView({ behavior: 'smooth' });
 }
 
 export function nextSlide() {
