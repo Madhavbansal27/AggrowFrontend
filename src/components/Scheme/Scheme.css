@@ -107,3 +107,29 @@
     margin-left: 1rem;
     
 }
+@media (max-width: 767px) {
+    .scheme-content{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+       height: 60vh;
+    }
+    .carousel{
+        width: 80vw;
+        
+    }
+    .news-ticker{
+        padding: 4px;
+        width: 80vw;
+        
+        height: 50%;
+    }
+    .news-alerts{
+        overflow: scroll;
+        padding: 4px;
+    }
+}
